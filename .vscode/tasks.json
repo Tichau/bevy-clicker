@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Watch",
+			"group": "build",
+			"type": "shell",
+			"command": "cargo watch",
+			"problemMatcher": "$rustc-watch",
+			"isBackground": true
+		},
+		{
+			"label": "Build",
+			"group": "build",
+			"type": "shell",
+			"command": "cargo build",
+			"problemMatcher": "$rustc"
+		},
+		{
+			"label": "Run",
+			"type": "shell",
+			"command": "cargo run",
+			"problemMatcher": "$rustc"
+		},
+		{
+			"label": "Test",
+			"group": "test",
+			"type": "shell",
+			"command": "cargo test",
+			"problemMatcher": "$rustc"
+		},
+	]
+}
